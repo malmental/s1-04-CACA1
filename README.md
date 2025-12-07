@@ -1,2 +1,9 @@
-# s1-04-CACA1
-    Repositorio creado para el Sprint 1, tasca 04
+# Sprint 1 
+  **Descripción**: Repositorio creado para la tasca S1.04.POO-1
+  
+  ## 🛠 Tecnologies  
+  - PHP
+  
+  ## 🚀 Instal·lació  
+  1. Clonar el repositori: `git clone ...`  
+  2. Ejecutar ficheros *.PHP 

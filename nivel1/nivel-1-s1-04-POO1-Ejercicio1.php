@@ -1,14 +1,10 @@
-Crea una clase que representa a un empleado, con atributos a los que se hace referencia en su nombre y usted es. Defina un método que reciba el nombre y el salario como parámetros. Planta un segundo método que imprime el nombre y un mensaje que muestra si pagar o no impuestos (si el salario supera los 6000, paga impuestos).
-
 <?php
 
 class Empleado
 {
-    // Atributos de la clase.
     public $nombre;
     public $salario;
 
-    // Metodo constructor de la clase.
     public function __construct(string $nombre, float $salario)
     {
         $this->nombre = $nombre;
@@ -26,7 +22,7 @@ class Empleado
     }
 }
 
-// Verificacion del ejericio, creamos un nuevo empleado, solo se deberán cambiar los parametros de la clase llamando al metodo verificarImpuestos
+// Verificacion del ejericio
 $empleado1 = new Empleado("Pedro", 3500);
 $empleado1->verificarImpuestos();
 
