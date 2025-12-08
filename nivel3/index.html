@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo de Peliculas</title>
+    
+    <style>
+        body 
+        {
+            font-family: Fira Code, Arial;
+            background-color:pink;
+        }
+        #container
+        {
+            width: 60%;
+            border: 5px solid;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="container">
+        <h1 id="titulo">Catalogo de peliculas</h1>
+        <!--Codigo para mostrar las peliculas-->
+        <?php 
+            mostrarPeliculas();
+        ?>
+        <?php
+            getPeliculaMasLarga();
+        ?>
+        <?php
+            buscarPorDirector();
+        ?>
+    </div>
+</body>
+</html>
