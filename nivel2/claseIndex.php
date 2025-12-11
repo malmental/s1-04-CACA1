@@ -2,7 +2,7 @@
 
 include 'clasePokerDice.php';
 
-echo "===PROGRAMA: PokerDice===" . PHP_EOL;
+echo "PokerDice: " . PHP_EOL;
 echo "" . PHP_EOL;
 
 // Creamos un dado
@@ -16,7 +16,7 @@ echo "Ultimo tiro: " . $dado1->verUltimoTiro() . PHP_EOL;
 echo "TOTAL DE TIRADAS: " . PokerDice::verTotalTiradas() . PHP_EOL;
 echo "" . PHP_EOL;
 
-echo "=== TIRANDO LOS DADOS ===" . PHP_EOL;
+echo "TIRANDO LOS DADOS" . PHP_EOL;
 echo "" . PHP_EOL;
 
 // Primero creamos los 5 dados
@@ -37,7 +37,6 @@ function tirarTodosLosDatos (array $dados)
     return $resultados;
 }
 
-// Jugando
 echo "Primera tirada: " . PHP_EOL;
 tirarTodosLosDatos($dados);
 echo "Total de tiradas: " . PokerDice::verTotalTiradas() . PHP_EOL;
